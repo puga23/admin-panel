@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+
+table{
+width: 100%;
+border-collapse:collapse;
+}
+
+
+.thead{
+    background-color:#292932 ;
+}
+
+th{
+font-family: Roboto;
+color: #B5B5BE;
+font-size: 16px;
+padding:16px ;
+
+}
+
+.left{
+border-radius: 10px 0 0 0 ;
+}
+.right{
+border-radius: 0 10px 0 0 ;
+}
+
+td{
+    color: #B5B5BE;
+    font-family: Roboto;
+    font-size: 16px;
+    height: 72px;
+    background-color: #1C1C24;
+    text-align: center;
+    
+
+}
+
+.toval{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color:#FC5A5A ;
+    
+}
+.ovalshape{
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
